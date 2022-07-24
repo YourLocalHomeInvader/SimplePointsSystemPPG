@@ -7,7 +7,6 @@ namespace Points
         public static void Main()
         { 
             var Points = 0f; //Starting Amount
-            var Reset = 1f; //define stats
             ModAPI.OnDeath += (sender, life) => { //Start on Death
                 Points += 25; //Amount of Points
                 ModAPI.Notify("<color=green>" + "+25 Points. " + "\n <color=orange>" + "Score: " + "<color=yellow>" + Mathf.Round(Points * 10) / 10); //Message that will appear
