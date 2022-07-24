@@ -15,7 +15,7 @@ namespace Points
             ModAPI.OnItemSpawned += (sender, args) => { //Start on Item Spawned
                 Points += 1; //Amount of Points
                 ModAPI.Notify("<color=green>" + "+1 Point. " + "\n <color=orange>" + "Score: " + "<color=yellow>" + Mathf.Round(Points * 10) / 10); //Message that will appear
-		};
+	    };
         }
     }
 }
