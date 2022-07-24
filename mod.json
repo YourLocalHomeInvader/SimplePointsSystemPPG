@@ -1,0 +1,19 @@
+{
+  "Name": "Simple Points System",
+  "Author": "Your Local Home Invader",
+  "Description": "This mod add a score system to the game, 1 point for spawning something, 25 points for killing somthing",
+  "ModVersion": "1.0",
+  "GameVersion": "1.11+",
+  "ThumbnailPath": "thumb.png",
+  "EntryPoint": "Points.Points",
+  "Tags": [
+    "Fun",
+    "Utility"
+  ],
+  "Scripts": [
+    "Points.cs"
+  ],
+  "Active": true,
+  "UGCIdentity": "",
+  "CreatorUGCIdentity": "2838842050"
+}
